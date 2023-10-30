@@ -7,7 +7,7 @@ body {
     background-attachment: fixed;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1080px) {
     /* Cambia el tamaño de la fuente y el espaciado para dispositivos más pequeños */
     body {
         font-size: 16px;
