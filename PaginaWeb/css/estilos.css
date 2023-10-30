@@ -1,0 +1,278 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image:url("/HTML/PaginaWeb/img/fondo.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media (max-width: 800px) {
+    /* Cambia el tamaño de la fuente y el espaciado para dispositivos más pequeños */
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        padding: 5px;
+    }
+
+    nav li {
+        margin-right: 10px;
+    }
+
+    nav a {
+        padding: 8px 16px;
+    }
+
+    .contenedor-general {
+        padding: 5px;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .panel, .additional-content, .info-panel {
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .vertical-panels {
+        flex-direction: column;
+    }
+
+    .li-enlace a {
+        font-size: 14px;
+    }
+
+    .footer {
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-icons {
+        font-size: 20px;
+        margin: 5px;
+    }
+
+    .hr-vertical {
+        display: none; /* Oculta la línea vertical en dispositivos más pequeños */
+    }
+}
+
+header {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Estilos para los botones circulares */
+/* Estilos para los botones circulares y efecto de hover */
+.color-buttons {
+    display: flex;
+}
+
+.color-buttons button {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s; /* Agrega una transición para el efecto de escala */
+}
+
+.color-buttons button:hover {
+    transform: scale(1.2); /* Escala el botón al pasar el ratón por encima */
+}
+
+.blue-button {
+    background-color: blue;
+}
+
+.green-button {
+    background-color: green;
+}
+
+.red-button {
+    background-color: red;
+}
+
+.white-button {
+    background-color: white;
+}
+
+
+
+.logo {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .logo img {
+    transition: transform 0.5s ease; /* Agrega una transición para el efecto de escala */
+  }
+  
+  .logo:hover img {
+    transform: scale(1.1); /* Escala la imagen cuando se pasa el mouse sobre el logo */
+  }
+  
+
+/* Estilo para los elementos de la lista */
+nav ul {
+    list-style: none; /* Quita los marcadores de lista */
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px; /* Espaciado entre los elementos de la lista (ajusta según tu diseño) */
+}
+
+nav a {
+    text-decoration: none; /* Quita el subrayado del enlace */
+    padding: 10px 20px; /* Espaciado interno para dar forma de botón */
+    background-color: #ffffff; /* Color de fondo */
+    color: #000000; /* Color de texto */
+    border-radius: 5px; /* Borde redondeado para dar aspecto de botón */
+    transition: background-color 0.3s; /* Animación al cambiar el color de fondo en hover */
+}
+
+nav a:hover {
+    background-color: #00bbff; /* Color de fondo al hacer hover */
+}
+
+
+
+.contenedor-general {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.335);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+}
+
+.content {
+    flex: 4;
+    color: white;
+}
+
+.panel {
+    background-color: #333;
+    padding: 20px;
+    margin: 10px;
+}
+
+.additional-content {
+    flex: 1;
+    background-color: #333;
+    padding: 20px;
+    margin: 10px;
+    overflow-y: scroll;
+    max-height: 588px;
+}
+
+.vertical-panels {
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical-panel {
+    background-color: #444;
+    padding: 10px;
+    margin: 5px;
+}
+
+.info-panel {
+    background-color: #333;
+    padding: 20px;
+    margin: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-box {
+    /*border: 1px solid white; /* Agregar un borde blanco */
+    padding: 10px;
+}
+
+.left {
+    flex: 1;
+}
+
+.middle {
+    flex: 1;
+    text-align: center;
+}
+
+.right {
+    flex: 1;
+    text-align: right;
+}
+.social-icons:hover{
+    border-radius:100%;
+    -webkit-border-radius:100%;
+    box-shadow: 0px 0px 10px 10px #ffffff;
+}
+
+.social-icons {
+    font-size: 24px;
+    margin: 10px;
+}
+
+
+.hr-vertical{ 
+  
+    border: none;
+    border-left: 2px solid hsl(0deg 0% 100% / 20%);
+    height: 353px;
+    width: 1px;       
+}
+
+/* Estilo para los enlaces de la lista */
+.li-enlace a {
+    text-decoration: none; /* Para quitar la línea de enlace */
+    font-size: 15px; /* Tamaño de letra de 15px */
+    color: #ffffff; /* Color de texto, puedes ajustar esto a tu preferencia */
+}
+
+/* Estilo al pasar el ratón por encima de los enlaces */
+.li-enlace a:hover {
+    text-decoration: none; /* Para quitar la línea de enlace */
+    color: #007bff; /* Cambiar el color al pasar el ratón por encima */
+}
+
+/* Estilo para el contenedor del texto aleatorio */
+.random-text {
+    text-align: center; /* Centrar el texto horizontalmente */
+    margin: auto; /* Ajusta el espaciado superior según tus preferencias */
+    padding: 10px;
+}
+.panel a {
+    text-decoration: none; /* Para quitar la línea de enlace */
+    font-size: 15px; /* Tamaño de letra de 15px */
+    color: #ffd900; /* Color de texto, puedes ajustar esto a tu preferencia */
+}
+
+.panel a:hover {
+    text-decoration: none; /* Para quitar la línea de enlace */
+    color: #ff8c00; /* Cambiar el color al pasar el ratón por encima */
+}
