@@ -1,0 +1,54 @@
+body {
+    background-color: #f8f9fa;
+  }
+
+  #contacto {
+    background-color: #343a40;
+    color: #fff;
+    padding: 60px 0;
+    margin-top: 30px;
+  }
+
+  #contacto h2 {
+    color: #dc3545;
+  }
+
+  #contacto form {
+    background-color: #212529;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  #contacto label {
+    color: #dc3545;
+  }
+
+  #contacto button {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+
+  #contacto button:hover {
+    background-color: #bb2d3b;
+    border-color: #bb2d3b;
+  }
+
+  #bienvenida {
+    background-color: #343a40;
+    color: #fff;
+    padding: 60px 0;
+  }
+
+  #bienvenida h1,
+  #bienvenida p {
+    text-align: center;
+  }
+
+  #bienvenida a {
+    color: #dc3545;
+  }
+
+  #bienvenida a:hover {
+    color: #bb2d3b;
+    text-decoration: none;
+  }
