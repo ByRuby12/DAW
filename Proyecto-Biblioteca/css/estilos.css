@@ -1,0 +1,477 @@
+/*Fondo de Pantalla Blanco*/
+body {
+    background-image: url("/DWES/ProyectoFinal/img/fondoPantalla.jpeg");
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen en su lugar, de modo que no se desplace con el contenido */
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+  
+/*----------------------LOGIN-------------------------*/
+
+.login-section {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 5px;
+    float: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el título "Iniciar Sesión" */
+  .login-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para los mensajes de error */
+  .error {
+    color: #d9534f;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los campos del formulario */
+  .login-section label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .login-section select{
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .login-section input[type="text"],
+  .login-section input[type="password"], 
+  .login-section input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Estilos para el botón "Enviar" */
+  .login-section input[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-section input[type="submit"]:hover {
+    background-color: #218838; /* Color diferente al hacer hover */
+  }
+  
+/*------------------FOTTER-------------------*/
+
+/*Pie de pagina IES VILLAVERDE*/
+#footer-pie {
+    background-color: #3498db;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex; /* Hace que los elementos hijos se alineen en línea */
+    align-items: center; /* Centra verticalmente los elementos hijos */
+    justify-content: center; /* Centra horizontalmente los elementos hijos */
+  }
+
+/* Estilo para el contenido dentro del footer */
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilo para el footer hover (opcional) */
+#footer-pie:hover {
+  background-color: #2980b9;
+  transition: background-color 0.3s ease;
+}
+
+/*------------------HEADDER-------------------*/
+
+/* Estilo para la imagen del logo */
+#header-cabezera img {
+  width: 40px; /* Ajusta el ancho según tus necesidades */
+  height: 40px; /* Ajusta la altura según tus necesidades */
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+/* Estilo para el encabezado Bibliotech Vista */
+#header-cabezera {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex; /* Hace que los elementos hijos se alineen en línea */
+  align-items: center; /* Centra verticalmente los elementos hijos */
+  justify-content: center; /* Centra horizontalmente los elementos hijos */
+}
+
+/* Estilo para el texto en el encabezado */
+.header-text {
+  flex-grow: 1; /* Permite que el texto ocupe el espacio restante */
+}
+
+/* Estilo para el encabezado Bibliotech Hover */
+#header-cabezera:hover {
+  background-color: #2980b9;
+  transition: background-color 0.3s ease;
+}
+
+
+/*--------------------MENU-------------------*/
+
+.menu .color{
+  color: white;
+}
+
+.container {
+  display: flex;
+}
+
+/* Estilos para el menú */
+.menu {
+  background-color: #1a237e;
+  width: 260px;
+  padding: 20px;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu ul li {
+  padding: 10px 0;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff; /* Color de texto blanco */
+  display: block;
+  padding: 10px;
+  transition: 0.3s; /* Transición para el efecto hover */
+  font-size: 18px; /* Tamaño de fuente */
+}
+
+.menu ul li a:hover {
+  background-color: #0d47a1; /* Cambia el color de fondo en el hover */
+}
+
+/* Estilos adicionales (opcional) */
+.menu ul li a:active {
+  background-color: #002171; /* Cambia el color de fondo al hacer clic */
+}
+
+.logoutmenu-contenedor {
+  text-align: center;
+}
+
+.logoutmenu {
+  background-color: #dc3545; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logoutmenu:hover {
+  background-color: #72000b; /* Cambiar color al pasar el ratón sobre el botón */
+}
+
+.logoutmenu a {
+  /* Estilos específicos para el enlace dentro del botón */
+  text-decoration: none; /* Quita la línea subrayada del enlace */
+  color: #fff; /* Cambia el color del texto a blanco */
+}
+
+
+/*--------------------PERFIL-------------------*/
+.container2 {
+  display: flex;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  max-height: 1033px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin: 10px;
+}
+
+.perfil {
+  width: 70%;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.perfil h3{
+  color: #007bff;
+}
+
+.editar {
+  width: 70%;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.container2 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.container2 label {
+  display: block;
+  margin-bottom: -20px;
+}
+
+.container2 input {
+  width: 80%;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.container2 button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.container2 button:hover {
+  background-color: #0056b3;
+}
+  
+/*----------------Informacion/Principal---------------------*/
+
+
+
+/*--------------CONTACTO------------------*/
+
+.contacto {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.info-empresa {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background: white;
+}
+
+.info-empresa h3 {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.info-empresa p {
+  font-size: 16px;
+  color: #464646;
+  margin-bottom: 10px;
+}
+
+.redes-sociales a {
+  font-size: 20px;
+  list-style: none;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/*-----------LIBROS------------*/
+
+/* Estilos para la tabla */
+.tabla-libros {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-libros th, .tabla-libros td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabla-libros tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tabla-libros tr:hover {
+  background-color: #ddd;
+}
+
+/*CONTENEDOR DE CARGA DE DATOS (TABLAS DE USUARIO, LIBROS, PRESTAMOS)*/
+.contenedor3 {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-height: 1033px;
+  overflow-y: auto;
+  width: 100%;
+  background: white;
+}
+
+/*EDITAR-LIBRO*/
+.contenedor-libro {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-height: 260px;
+  background: white;
+}
+
+/*USUARIOS*/
+.contenedor-usuario {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-height: 380px;
+  overflow-y: auto;
+  background: white;
+}
+
+/*--CREAR USUARIO--*/
+.contenedor-crearusuario {
+  margin: 10px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-crearusuario h2 {
+  color: #333;
+}
+
+.contenedor-crearusuario label {
+  display: block;
+  margin-bottom: 8px;
+  color: #000000;
+}
+
+.contenedor-crearusuario input[type="text"],
+.contenedor-crearusuario input[type="email"],
+.contenedor-crearusuario input[type="password"],
+.contenedor-crearusuario select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contenedor-crearusuario select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-size: 20px;
+}
+
+.contenedor-crearusuario input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contenedor-crearusuario input[type="submit"]:hover {
+  background-color: #217dbb;
+}
+
+.contenedor-crearusuario .error {
+  color: #d9534f;
+  margin-bottom: 15px;
+}
+
+/*FILTRADOR BUSQUEDA*/
+
+/* Estilos para el formulario de búsqueda con la clase "filtrador" */
+.filtrador {
+  max-width: 600px;
+  margin: 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 1017px;
+}
+
+.filtrador form {
+  margin-bottom: 20px;
+}
+
+.filtrador label {
+  display: block;
+  margin-top: 10px;
+}
+
+.filtrador input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.filtrador input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filtrador input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.tabla-libros th, .tabla-libros td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabla-libros th {
+  background-color: #4caf50;
+  color: white;
+}
