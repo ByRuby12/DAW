@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivial JavaScript</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos/style_menu.css">
+</head>
+<body>
+    <header>
+        <h1>Trivial JavaScript</h1>
+    </header>
+
+    <!-- Menú de Inicio -->
+    <section id="menu">
+        <a href="./ficheros/trivial.html">
+            <button class="menu-btn" id="jugar">Jugar</button>
+        </a>
+        <a href="./ficheros/como_jugar.html">
+            <button id="how-to-play-btn" class="menu-btn">Cómo jugar</button>
+        </a>
+        <button class="menu-btn" id="boton-salir">Salir del Juego</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Trivial's Tomás Cano</p>
+    </footer>
+
+    <script>
+        /*Lo que hace es cuando le das al boton de salir del juego, 
+        te sale un "confirm" para aceptar o rechazar*/
+        document.getElementById('boton-salir').addEventListener('click', function () {
+            let confirmar_alerta = confirm('¿Estás seguro de que quieres salir del juego?');
+            if (confirmar_alerta) {
+                window.close();  
+            } else {
+            
+            }
+        });
+    </script>
+
+</body>
+</html>

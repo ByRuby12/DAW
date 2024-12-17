@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivial - Preguntas</title>
+    <link rel="stylesheet" href="../estilos/style_trivial.css">
+</head>
+<body>
+    <div id="menu">
+        <h1>Pregunta <span id="numero-pregunta">1</span>/20</h1>
+        <p id="texto-pregunta">Aquí irá la pregunta</p>
+
+        <div class="options">
+            <label>
+                <input type="radio" name="option" value="0">
+                <span id="opcion-0">Opción 1</span>
+            </label>
+            <label>
+                <input type="radio" name="option" value="1">
+                <span id="opcion-1">Opción 2</span>
+            </label>
+            <label>
+                <input type="radio" name="option" value="2">
+                <span id="opcion-2">Opción 3</span>
+            </label>
+        </div>
+
+        <button id="boton-enviar" class="menu-btn">Corregir Respuesta</button>
+
+        <p id="resultado-respuesta"></p>
+
+        <a href="../index.html" id="salir-juego" style="display: none;">
+            <button class="menu-btn">Volver al menú</button>
+        </a>
+    </div>
+
+    <script src="../script/script.js"></script>
+</body>
+</html>

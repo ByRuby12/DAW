@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Tarjetas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Generador de Tarjetas</h1>
+    
+    <form id="formularioTarjeta">
+        <label for="titulo">Título de la tarjeta:</label>
+        <input type="text" id="titulo" required>
+        
+        <label for="descripcion">Descripción de la tarjeta:</label>
+        <textarea id="descripcion" rows="3" required></textarea>
+        
+        <label for="color">Color de fondo:</label>
+        <input type="color" id="color" value="#ffffff">
+
+        <button type="button" id="crearTarjeta">Crear Tarjeta</button>
+        <button type="button" id="guardarEdicion" style="display:none;">Guardar Cambios</button>
+    </form>
+
+    <p>Total de tarjetas creadas: <span id="contador">0</span></p>
+    <section id="contenedorTarjetas"></section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
