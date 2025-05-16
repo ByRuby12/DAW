@@ -14,7 +14,7 @@ A continuación se presentan los proyectos organizados por nombre, con una breve
 - 📚 [Proyecto-Biblioteca](https://byruby12.github.io/DAW/Proyecto-Biblioteca/index.html)  
   Aplicación orientada a la gestión de una biblioteca: libros, autores, usuarios y préstamos. Enfocada en la lógica de backend.
 
-- 📖 [Proyecto-Bibliotech](https://byruby12.github.io/DAW/Proyecto-Bibliotech/index.html)  
+- 📖 [Proyecto-Bibliotech](https://byruby12.github.io/DAW/Proyecto-Bibliotech/index.php)  
   Evolución o versión extendida de la anterior con mejoras visuales o funcionalidades adicionales.
 
 - 🎨 [Proyecto-BootStrap](https://byruby12.github.io/DAW/Proyecto-BootStrap/index.html)  
@@ -23,7 +23,7 @@ A continuación se presentan los proyectos organizados por nombre, con una breve
 - 🃏 [Proyecto-Cartas](https://byruby12.github.io/DAW/Proyecto-Cartas/index.html)  
   Juego o aplicación interactiva basada en cartas, con funcionalidades dinámicas posiblemente usando JavaScript.
 
-- 🌐 [Proyecto-IOT](https://byruby12.github.io/DAW/Proyecto-IOT/index.html)  
+- 🌐 [Proyecto-IOT](https://byruby12.github.io/DAW/Proyecto-IOT/IOT-Vista/vista/index.html)  
   Proyecto relacionado con el Internet de las Cosas, donde se combinan conceptos de sensores, datos en tiempo real y visualización web.
 
 - 🎮 [Proyecto-LeidersRP](https://byruby12.github.io/DAW/Proyecto-LeidersRP/index.html)  
