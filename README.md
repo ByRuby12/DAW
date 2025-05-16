@@ -8,43 +8,43 @@
 
 A continuación se presentan los proyectos organizados por nombre, con una breve descripción general y enlace para acceder directamente al sitio:
 
-- 🔷 [Proyecto-AFRAME](https://byruby12.github.io/ProyectosDAW/Proyecto-AFRAME/index.html)  
+- 🔷 [Proyecto-AFRAME](https://byruby12.github.io/DAW/Proyecto-AFRAME/index.html)  
   Proyecto desarrollado con A-Frame (WebVR), para la creación de escenas 3D y experiencias inmersivas directamente desde el navegador.
 
-- 📚 [Proyecto-Biblioteca](https://byruby12.github.io/ProyectosDAW/Proyecto-Biblioteca/index.html)  
+- 📚 [Proyecto-Biblioteca](https://byruby12.github.io/DAW/Proyecto-Biblioteca/index.html)  
   Aplicación orientada a la gestión de una biblioteca: libros, autores, usuarios y préstamos. Enfocada en la lógica de backend.
 
-- 📖 [Proyecto-Bibliotech](https://byruby12.github.io/ProyectosDAW/Proyecto-Bibliotech/index.html)  
+- 📖 [Proyecto-Bibliotech](https://byruby12.github.io/DAW/Proyecto-Bibliotech/index.html)  
   Evolución o versión extendida de la anterior con mejoras visuales o funcionalidades adicionales.
 
-- 🎨 [Proyecto-BootStrap](https://byruby12.github.io/ProyectosDAW/Proyecto-BootStrap/index.html)  
+- 🎨 [Proyecto-BootStrap](https://byruby12.github.io/DAW/Proyecto-BootStrap/index.html)  
   Sitio web desarrollado utilizando el framework Bootstrap para practicar diseño responsivo y componentes visuales.
 
-- 🃏 [Proyecto-Cartas](https://byruby12.github.io/ProyectosDAW/Proyecto-Cartas/index.html)  
+- 🃏 [Proyecto-Cartas](https://byruby12.github.io/DAW/Proyecto-Cartas/index.html)  
   Juego o aplicación interactiva basada en cartas, con funcionalidades dinámicas posiblemente usando JavaScript.
 
-- 🌐 [Proyecto-IOT](https://byruby12.github.io/ProyectosDAW/Proyecto-IOT/index.html)  
+- 🌐 [Proyecto-IOT](https://byruby12.github.io/DAW/Proyecto-IOT/index.html)  
   Proyecto relacionado con el Internet de las Cosas, donde se combinan conceptos de sensores, datos en tiempo real y visualización web.
 
-- 🎮 [Proyecto-LeidersRP](https://byruby12.github.io/ProyectosDAW/Proyecto-LeidersRP/index.html)  
+- 🎮 [Proyecto-LeidersRP](https://byruby12.github.io/DAW/Proyecto-LeidersRP/index.html)  
   Proyecto personalizado o plataforma para un servidor RolePlay (posiblemente para videojuegos como GTA RP o FiveM).
 
-- 🧱 [Proyecto-MVC](https://byruby12.github.io/ProyectosDAW/Proyecto-MVC/index.html)  
+- 🧱 [Proyecto-MVC](https://byruby12.github.io/DAW/Proyecto-MVC/index.html)  
   Implementación del patrón Modelo-Vista-Controlador en una aplicación web, para comprender la separación lógica y estructural.
 
-- 🐾 [Proyecto-Pokemon](https://byruby12.github.io/ProyectosDAW/Proyecto-Pokemon/index.html)  
+- 🐾 [Proyecto-Pokemon](https://byruby12.github.io/DAW/Proyecto-Pokemon/index.html)  
   Aplicación temática de Pokémon, con listado de criaturas, detalles, y funcionalidades relacionadas al universo Pokémon.
 
-- ✍️ [Proyecto-ProcesadorTextos](https://byruby12.github.io/ProyectosDAW/Proyecto-ProcesadorTextos/index.html)  
+- ✍️ [Proyecto-ProcesadorTextos](https://byruby12.github.io/DAW/Proyecto-ProcesadorTextos/index.html)  
   Simulación o desarrollo de un procesador de textos básico, con edición, guardado y formato.
 
-- 💨 [Proyecto-Tailwind](https://byruby12.github.io/ProyectosDAW/Proyecto-Tailwind/index.html)  
+- 💨 [Proyecto-Tailwind](https://byruby12.github.io/DAW/Proyecto-Tailwind/index.html)  
   Prácticas o desarrollos usando TailwindCSS para estilos utilitarios y diseño web moderno.
 
-- ❓ [Proyecto-Trivial](https://byruby12.github.io/ProyectosDAW/Proyecto-Trivial/index.html)  
+- ❓ [Proyecto-Trivial](https://byruby12.github.io/DAW/Proyecto-Trivial/index.html)  
   Juego de preguntas y respuestas tipo trivial, con sistema de puntuación y categorías.
 
-- 🌍 [Proyeto-WebDinamica](https://byruby12.github.io/ProyectosDAW/Proyeto-WebDinamica/index.html)  
+- 🌍 [Proyeto-WebDinamica](https://byruby12.github.io/DAW/Proyeto-WebDinamica/vista/index.php)  
   Desarrollo de aplicaciones web dinámicas con interacción backend, posiblemente usando PHP, JavaScript o tecnologías de servidor.
 
 ---
