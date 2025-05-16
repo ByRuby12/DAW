@@ -29,7 +29,7 @@ A continuación se presentan los proyectos organizados por nombre, con una breve
 - 🎮 [Proyecto-LeidersRP](https://byruby12.github.io/DAW/Proyecto-LeidersRP/index.html)  
   Proyecto personalizado o plataforma para un servidor RolePlay (posiblemente para videojuegos como GTA RP o FiveM).
 
-- 🧱 [Proyecto-MVC](https://byruby12.github.io/DAW/Proyecto-MVC/index.html)  
+- 🧱 [Proyecto-MVC](https://byruby12.github.io/DAW/Proyecto-MVC/View/listado.php)  
   Implementación del patrón Modelo-Vista-Controlador en una aplicación web, para comprender la separación lógica y estructural.
 
 - 🐾 [Proyecto-Pokemon](https://byruby12.github.io/DAW/Proyecto-Pokemon/index.html)  
